@@ -99,11 +99,18 @@ a.right.carousel-control{
 }
 #slider .textoSlider a{
 	color: white;
-	border-radius: 5px;
-    padding: 5px;
     background-color: rgba(127, 0, 0, 0.5);
     text-decoration: none;
     text-shadow: 0 0 7px #7f0000;  
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+    font-weight: 700;
+    padding: 7px 13px;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    
 }
 	/*END OF SLIDER*/
 	/*DEPOIMENTO*/
@@ -361,13 +368,88 @@ a.right.carousel-control{
 	color: rgba(119, 119, 119, 0.82);
 	font-family:'Josefin Sans', sans-serif;
 }
+.links{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.perfil .texto span{
+	font-family: 'Josefin Sans', sans-serif;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 6px;
+    border: solid 2px #b71c1c;
+    border-radius: 8px;
+    margin-left: 2px;
+}
 
 	/*FIM DEPOIMENTOS PERFIL*/
 
 /*FIM PERFIL TATUADORA*/
 	
 
+@media (max-width: 360px){
+	/*INDEX*/
+.carousel-indicators {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
 
+#slider .textoSlider {
+    width: 78%;
+    top: 21px;
+}
+
+
+#slider h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+#slider p {
+    font-size: 12px;
+    max-width: 100%;
+}
+
+#slider .textoSlider a{
+	font-size: 11px;
+    padding: 7px 13px;
+    
+}
+
+	/*FIM INDEX*/
+
+	/*PERFIL TATUADORAS*/
+.perfil{
+	display: block;
+	align-items: center;
+}
+
+.perfil .img{
+	display: flex;
+	justify-content: center;
+}
+
+.perfil .texto{
+	text-align: center;
+}
+
+.perfil .texto .links{
+	display: flex;
+	justify-content: center;
+}
+
+	/*FIM PERFIL TATUADORAS*/
+}
 
 
 
