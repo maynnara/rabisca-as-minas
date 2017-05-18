@@ -391,6 +391,9 @@ a.right.carousel-control{
 
 @media (max-width: 360px){
 	/*INDEX*/
+.navbar-default a.navbar-brand>h1{
+		font-size: 30px;
+	}
 .carousel-indicators {
     position: absolute;
     bottom: 0px;
